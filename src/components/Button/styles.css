@@ -1,0 +1,20 @@
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid purple;
+    color: purple;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+}
+
+button:disabled {
+    border: 2px solid gray;
+    color: gray;
+    cursor: not-allowed;
+    background-color: transparent;
+}
